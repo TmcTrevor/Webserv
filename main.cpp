@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mokhames <mokhames@student.42.fr>          +#+  +:+       +#+        */
+/*   By: akhalidy <akhalidy@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 17:31:58 by akhalidy          #+#    #+#             */
-/*   Updated: 2022/06/28 16:16:02 by mokhames         ###   ########.fr       */
+/*   Updated: 2022/06/30 20:47:39 by akhalidy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,8 @@
 
 int	main(int argc, char **argv)
 {
-	//Config config("default.conf");
 	char tmpFolder[] = "./tmp";
-	std::string a = "default.conf";
+	std::string a = "ngnixtest.conf";
 	if (argc == 2)
 		a =	argv[1];
 	Config config(a);	
